@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Company Profile</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h1>My Company</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#profile">Our Profile</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+    <h2 id="welcome-text">Hi, </h2>
+    <p>Welcome to our company website</p>
+  </section>
+
+  <!-- HEADQUARTER -->
+  <section>
+    <h2>Our Headquarter</h2>
+    <div class="hq">
+      <div>Jakarta</div>
+      <div>Bandung</div>
+      <div>Surabaya</div>
+    </div>
+  </section>
+
+  <!-- OUR PROFILE -->
+  <section id="profile">
+    <h2>Our Profile</h2>
+
+    <img src="https://via.placeholder.com/900x250" alt="Company Banner"/>
+
+    <h3>About Company</h3>
+    <p>
+      My Company is a technology company focused on building modern and reliable digital solutions.
+    </p>
+
+    <h3>Vision & Mission</h3>
+    <ul>
+      <li>Provide high quality technology products</li>
+      <li>Help businesses grow digitally</li>
+      <li>Deliver innovative solutions</li>
+    </ul>
+  </section>
+
+  <!-- MESSAGE US -->
+  <section>
+    <h2>Message Us</h2>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Name" />
+      <input type="email" id="email" placeholder="Email" />
+      <input type="text" id="phone" placeholder="Phone Number" />
+      <textarea id="message" placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+  </section>
+
+  <!-- JAVASCRIPT -->
+  <script src="js/script.js"></script>
+</body>
+</html>
