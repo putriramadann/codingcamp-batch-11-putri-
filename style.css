@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #0d6efd;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* SECTION */
+section {
+  padding: 40px 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* HOME */
+#welcome-text {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* HEADQUARTER */
+.hq {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.hq div {
+  flex: 1;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* PROFILE */
+#profile img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* FORM */
+form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
+
+/* RESULT */
+#result {
+  margin-top: 20px;
+  background-color: #e9f5ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hq {
+    flex-direction: column;
+  }
+
+  #welcome-text {
+    font-size: 24px;
+  }
+}
